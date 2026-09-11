@@ -6,7 +6,7 @@
       let pkgs = nixpkgs.legacyPackages.x86_64-linux;
       in pkgs.mkShell {
         packages = with pkgs; [
-          python313
+          python3
           uv
         ];
       };
