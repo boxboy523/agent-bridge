@@ -1,0 +1,9 @@
+[project]
+name = "agent-bridge"
+version = "0.1.0"
+description = "Minimal Unix-socket bridge into a sandboxed agent workspace"
+requires-python = ">=3.12"
+dependencies = []
+
+[tool.uv]
+package = false
